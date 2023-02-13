@@ -1,0 +1,37 @@
+.mainconateirn{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding: 40px;
+}
+.gridContaienr{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    background-color: black;
+    margin: 30px;
+
+}
+.card{
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    height: 100px;
+    width: 250px;
+    background-color: white;
+    margin: 10px;
+}
+.title{
+    color: black;
+    font-size: 14px;
+}
+.userid{
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}

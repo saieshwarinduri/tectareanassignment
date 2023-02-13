@@ -1,0 +1,32 @@
+.maincontaner{
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.conunterContainer{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 500px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+.buttons{
+    background-color: transparent;
+    border: none;
+}
+.icon{
+    height: 70px;
+    width: 70px;
+}
+.counternumber{
+    font-size: 100px;
+}
